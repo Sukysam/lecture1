@@ -7,7 +7,6 @@ body {
 
 	/* same as above */
 
-	font: normal, 16px, arial, helvetical, sans-serif; 
 
 	line-height: 1.2em;
 	margin:0px;
@@ -53,7 +52,6 @@ a:visited{
 }
 
 .box-1 h1{
-	font-family: tahoma; 
 	font-weight: 800;
 	font-style: italic;
 	text-decoration: underline;
@@ -116,7 +114,6 @@ a:visited{
 	border:1px solid #ccc;
 	padding:8px;
 	box-sizing: border-box;
-	
 }
 #main-bar {
 	float:left;
@@ -131,4 +128,3 @@ a:visited{
 	color:#fff;
 	padding: 15px;
 	box-sizing:border-box;
-}	
