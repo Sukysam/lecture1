@@ -1,0 +1,134 @@
+body {
+	background-color: #f4f4f4f4;
+	color: #555555;
+	font-family: arial, helvetical, sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+
+	/* same as above */
+
+	font: normal, 16px, arial, helvetical, sans-serif; 
+
+	line-height: 1.2em;
+	margin:0px;
+}
+a {
+	text-decoration: none;
+	color: #000
+
+}
+
+a:hover{
+	color: red;
+}
+
+a:Active{
+	color: blue;
+}
+
+a:visited{
+	color: black;
+}
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.clr {
+	clear:both;
+}
+
+.box-1 {
+	background-color: #333;
+	color:white;
+	border-width: 1px;
+	border-top-width: 10px;
+	border-left-style: solid;
+	border:5px solid red;
+
+	padding:20px;
+
+	margin:20px 0;
+}
+
+.box-1 h1{
+	font-family: tahoma; 
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 0.2em;
+
+}
+.box-2 {
+	border:3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+.categories {
+	border:1px solid #ccc;
+	padding: 10px;
+	border-radius:15px;
+
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding: 0;
+	padding-left: 20px;
+	list-style: none;
+}
+
+.categories li{
+	padding: 5px;
+	border-bottom:1px dotted #444;
+	list-style-image:url('../image/list.png');
+}
+.my-form {
+	padding: 20px;
+}
+.my-form .form-group {
+	padding-bottom: 15px;
+
+}
+.my-form label{
+	display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+	padding: 8px;
+	width: 100%;
+}
+
+.my-form input[type="submit"]{
+	background-color:#333;
+	color:white;
+	padding:10px 15px;
+	border:none;
+}
+.block {
+	float:left;
+	width: 33.3%;
+	border:1px solid #ccc;
+	padding:8px;
+	box-sizing: border-box;
+	
+}
+#main-bar {
+	float:left;
+	width: 70%;
+	padding: 15px;
+	box-sizing:border-box;
+}
+#sidebar {
+	float:right;
+	width: 30%;
+	background-color:#333;
+	color:#fff;
+	padding: 15px;
+	box-sizing:border-box;
+}	
